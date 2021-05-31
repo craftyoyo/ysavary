@@ -1,0 +1,5 @@
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteRule ^(.*)$ https://test.fr/$1 [L]
+#RewriteRule ^/(-[A-Z]*)$ /?social=$1 [L]
+#RewriteRule ^(.*)$ /index.php?social=$1 [NC,L,QSA]
